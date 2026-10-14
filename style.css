@@ -20,9 +20,9 @@ body {
   overflow-wrap: anywhere;
 }
 h1, h2, h3, h4 { line-height: 1.4; color: var(--ink); }
-h1 { font-size: 2rem; font-weight: 700; margin: 10px 0 24px; }
-body > header > h1 { text-align: left; }
-body > header .sub { text-align: left; color: var(--muted); margin: -12px 0 24px; }
+h1 { font-size: 2rem; font-weight: 700; margin: 10px 0 24px; text-align: center; }
+body > header > h1 { text-align: center; }
+body > header .sub { text-align: center; color: var(--muted); margin: -12px 0 24px; }
 center { text-align: left; }
 h2 { font-size: 1.4rem; margin: 36px 0 16px; padding-bottom: 7px; border-bottom: 1px solid var(--line); }
 h3 { font-size: 1.12rem; margin: 24px 0 12px; }
@@ -34,7 +34,7 @@ a:hover { text-decoration-thickness: 2px; }
 a:focus-visible, summary:focus-visible, .table-scroll:focus-visible {
   outline: 3px solid var(--accent); outline-offset: 4px; border-radius: 2px;
 }
-.site-nav { line-height: 2.4; color: var(--muted); padding: 6px 0 12px; }
+.site-nav { text-align: center; line-height: 2.4; color: var(--muted); padding: 6px 0 12px; }
 .site-nav a, .site-nav [aria-current] { display: inline-block; padding: 0 7px; }
 .site-nav a:first-child, .site-nav [aria-current]:first-child { padding-left: 0; }
 .site-nav [aria-current] { color: var(--ink); font-weight: 700; text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: .5em; }
